@@ -6,11 +6,7 @@ public class Carro1x1 {
     }
 
     void frear() {
-        if (motor.fatorInjecao > 0.5) {
-            motor.fatorInjecao = 0;
-        } else {
             motor.fatorInjecao -= 0.4;
-        }
     }
 
     void ligar() {
